@@ -63,7 +63,6 @@ def store_inventory(upc,zipcode,url):
         except:
             continue 
 
-    print(store_list)
     return store_list
 
 if __name__ == '__main__':
